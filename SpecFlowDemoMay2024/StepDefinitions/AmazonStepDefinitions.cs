@@ -15,6 +15,11 @@ namespace SpecFlowDemoMay2024.StepDefinitions
             dr.Navigate().GoToUrl(strURL);
             dr.Manage().Window.Maximize();
         }
+        [Then(@"i verified results")]
+        public void ThenIVerifiedResults()
+        {
+           
+        }
 
         [When(@"I click on ""([^""]*)"" link")]
         public void WhenIClickOnLink(string strLink)
