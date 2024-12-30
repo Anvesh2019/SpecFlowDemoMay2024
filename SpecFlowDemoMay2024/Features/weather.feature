@@ -28,3 +28,5 @@ Scenario Outline: Verify weather for multiple cities
 	| 500085  |
 	| 21030   |
 
+Scenario: Sample test case
+Given I navigate to "https://yahoomail.com"
