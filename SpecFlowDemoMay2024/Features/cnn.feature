@@ -11,5 +11,5 @@ Scenario: Verify CNN headers
 	@sanity
 Scenario: Verify CNN footers
 	Given I navigate to "https://cnn.com"
-	When I clicked on link world
+	When I clicked on link world in header
 	Then I verify world news
